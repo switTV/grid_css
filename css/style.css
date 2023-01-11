@@ -4,25 +4,58 @@
     box-sizing: border-box;
 }
 
-.contenedor {
-    border: 2px solid #499896;
-    display: grid;
-    grid-template-columns:repeat(auto-fit, minmax(100px, 1fr));
-    gap: 10px;
+main {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.contenedor2 {
-    border: 2px solid #197649;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    margin-top: 100px;
-    gap: 10px;
-    
+html {
+    font-size: 62.5%;
 }
 
+.hero {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    /* display: flex; */
+    /* align: center; */
+}
 
+main .hero img {
+    width: 100%;
+    object-fit: contain;
+    height: 400px;
+}
 
-.item {
-    border: 2px solid #499896;
-    border-radius: 5px;
+main .hero .hero-text{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-self: center;
+}
+
+main .hero .hero-text h1{
+    font-size: 4.1rem;
+    font-weight: 800;
+    color: #22333B;
+}
+
+main .hero .hero-text p{
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #22333B;
+    margin-top: 5px;
+}
+
+main .hero .hero-text button{
+    height: 40px;
+    width: 150px;
+
+    background-color: #E9B44C;
+    border: #e2ca9b 2px solid;
+    border-radius: 20px;
+    color: #22333B;
+
+    font-size: 1.4rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+
+    margin-top: 15px;
 }
