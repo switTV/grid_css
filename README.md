@@ -5,6 +5,7 @@ Este repositorio contiene ejemplos y utilidades para trabajar con la propiedad C
 ## Contenido
 
 * Ejemplos de uso de las principales propiedades de Grid, como grid-template-columns, grid-template-rows, grid-template-areas, entre otras.
+
 * Demostraciones de cómo crear diseños basicos/medianos utilizando Grid.
 
 ## Requerimentos
